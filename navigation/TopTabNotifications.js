@@ -32,7 +32,7 @@ function TopTabNavigatorNotifs() {
             title: "All",
             tabBarIndicatorStyle: {
               position: "absolute",
-              backgroundColor: Colors.accent500,
+              backgroundColor: Colors.accentLilac,
               height: 3,
               width: 33,
               borderRadius: 30,
@@ -48,7 +48,7 @@ function TopTabNavigatorNotifs() {
             title: "Events",
             tabBarIndicatorStyle: {
               position: "absolute",
-              backgroundColor: Colors.accent500,
+              backgroundColor: Colors.accentLilac,
               height: 3,
               width: 60,
               borderRadius: 30,

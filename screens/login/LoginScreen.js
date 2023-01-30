@@ -65,7 +65,7 @@ const LoginScreen = ({ navigation }) => {
                 }}
                 blurOnSubmit={false}
                 placeholder="Username or Email Address"
-                placeholderTextColor={"white"}
+                placeholderTextColor={Colors.accentLilac}
                 value={email}
                 onChangeText={(text) => setEmail(text)}
               />
@@ -76,7 +76,7 @@ const LoginScreen = ({ navigation }) => {
                 style={styles.input}
                 ref={passWord}
                 placeholder="Password"
-                placeholderTextColor={"white"}
+                placeholderTextColor={Colors.accentLilac}
                 value={password}
                 onChangeText={(text) => setPassword(text)}
                 secureTextEntry
@@ -95,7 +95,7 @@ const LoginScreen = ({ navigation }) => {
             >
               <Text
                 style={{
-                  color: Colors.accent500,
+                  color: Colors.accentLilac,
                   textDecorationLine: "underline",
                 }}
               >
@@ -112,7 +112,7 @@ const LoginScreen = ({ navigation }) => {
               >
                 <Text
                   style={{
-                    color: Colors.accent500,
+                    color: Colors.accentLilac,
                     textDecorationLine: "underline",
                   }}
                 >
@@ -215,7 +215,7 @@ const styles = StyleSheet.create({
     width: "90%",
     paddingLeft: 40,
     marginTop: 10,
-    color: "#2A0800",
+    color: Colors.accentBlue,
     alignContent: "flex-end",
   },
   inputContainer: {
@@ -227,12 +227,12 @@ const styles = StyleSheet.create({
   input: {
     height: 50,
     width: "85%",
-    borderColor: Colors.accent500,
+    borderColor: Colors.accentLilac,
     borderWidth: 1,
     borderRadius: 12,
     marginTop: 8,
     padding: 8,
-    backgroundColor: "#2A0800",
+    backgroundColor: Colors.regularText,
   },
   forgotPasswordContainer: {
     alignItems: "center",

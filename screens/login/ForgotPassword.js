@@ -66,14 +66,14 @@ const ForgotPassword = ({ navigation }) => {
                 pressed
                   ? [
                       {
-                        color: Colors.accent500,
+                        color: Colors.accentLilac,
                         textDecorationLine: "underline",
                       },
                       styles.pressed,
                     ]
                   : [
                       {
-                        color: Colors.accent500,
+                        color: Colors.accentLilac,
                         textDecorationLine: "underline",
                       },
                     ]
@@ -82,7 +82,7 @@ const ForgotPassword = ({ navigation }) => {
             >
               <Text
                 style={{
-                  color: Colors.accent500,
+                  color: Colors.accentLilac,
                   textDecorationLine: "underline",
                 }}
               >
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
   input: {
     height: 50,
     width: "85%",
-    borderColor: Colors.accent500,
+    borderColor: Colors.accentLilac,
     borderWidth: 1,
     borderRadius: 12,
     marginTop: 8,

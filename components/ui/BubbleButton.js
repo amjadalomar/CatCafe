@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 100,
     borderWidth: 2,
-    borderColor: Colors.accent500,
+    borderColor: Colors.accentCoral,
   },
   signInText: {
     color: "#2A0800",

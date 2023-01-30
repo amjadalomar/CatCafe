@@ -28,7 +28,7 @@ const UserProfileScreen = () => {
             <Ionicons
               style={styles.icon}
               name="menu"
-              color={Colors.accent500}
+              color={Colors.accentLilac}
               size={34}
             />
           </Pressable>
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     height: 125,
     width: 125,
     borderWidth: 2,
-    borderColor: Colors.accent500,
+    borderColor: Colors.accentLilac,
     borderRadius: 200,
   },
   name: {

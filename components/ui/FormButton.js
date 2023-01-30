@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
   input: {
     height: 50,
     width: "85%",
-    borderColor: Colors.accent500,
+    borderColor: Colors.accentLilac,
     borderWidth: 1,
     borderRadius: 12,
     marginTop: 8,

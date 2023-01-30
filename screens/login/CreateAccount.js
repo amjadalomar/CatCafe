@@ -129,14 +129,14 @@ const CreateAccount = ({ navigation }) => {
                 pressed
                   ? [
                       {
-                        color: Colors.accent500,
+                        color: Colors.accentLilac,
                         textDecorationLine: "underline",
                       },
                       styles.pressed,
                     ]
                   : [
                       {
-                        color: Colors.accent500,
+                        color: Colors.accentLilac,
                         textDecorationLine: "underline",
                       },
                     ]
@@ -145,7 +145,7 @@ const CreateAccount = ({ navigation }) => {
             >
               <Text
                 style={{
-                  color: Colors.accent500,
+                  color: Colors.accentLilac,
                   textDecorationLine: "underline",
                 }}
               >
@@ -189,7 +189,7 @@ const styles = StyleSheet.create({
   input: {
     height: 50,
     width: "85%",
-    borderColor: Colors.accent500,
+    borderColor: Colors.accentLilac,
     borderWidth: 1,
     borderRadius: 12,
     marginTop: 8,

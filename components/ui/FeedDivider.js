@@ -15,7 +15,7 @@ const FeedDivider = ({ children }) => {
         style={{
           flex: 1,
           height: 1,
-          backgroundColor: Colors.accent500,
+          backgroundColor: Colors.accentLilac,
           marginRight: 16,
           marginLeft: 16,
           opacity: 0.5,

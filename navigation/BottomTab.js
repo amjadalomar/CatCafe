@@ -18,7 +18,7 @@ function BottomTabNavigator() {
         headerStyle: { backgroundColor: Colors.primary500 },
         headerTintColor: "#2A0800",
         headerShown: false,
-        tabBarActiveTintColor: Colors.accent500,
+        tabBarActiveTintColor: Colors.accentLilac,
         tabBarInactiveTintColor: "#2A0800",
         tabBarStyle: { backgroundColor: Colors.primary500 },
         tabBarShowLabel: false,
@@ -59,7 +59,7 @@ function BottomTabNavigator() {
                 alignItems: "center",
                 borderRadius: 100,
                 borderWidth: 2,
-                borderColor: Colors.accent500,
+                borderColor: Colors.accentLilac,
               }}
             >
               <Text

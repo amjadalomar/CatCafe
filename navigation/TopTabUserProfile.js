@@ -16,7 +16,7 @@ function TopTabNavigatorUser() {
       <TopTab.Navigator
         screenOptions={{
           tabBarStyle: {
-            borderColor: Colors.accent500,
+            borderColor: Colors.accentLilac,
             borderBottomWidth: 1,
             backgroundColor: Colors.primary500,
           },
@@ -34,7 +34,7 @@ function TopTabNavigatorUser() {
             title: "Feed",
             tabBarIndicatorStyle: {
               position: "absolute",
-              backgroundColor: Colors.accent500,
+              backgroundColor: Colors.accentLilac,
               height: 3,
               width: 46,
               borderRadius: 30,
@@ -50,7 +50,7 @@ function TopTabNavigatorUser() {
             title: "Media",
             tabBarIndicatorStyle: {
               position: "absolute",
-              backgroundColor: Colors.accent500,
+              backgroundColor: Colors.accentLilac,
               height: 3,
               width: 53,
               borderRadius: 30,

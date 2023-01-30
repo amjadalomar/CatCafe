@@ -16,7 +16,7 @@ const SearchBar = () => {
       <TextInput
         style={styles.input}
         placeholder="Search"
-        placeholderTextColor={Colors.accent500}
+        placeholderTextColor={Colors.backupRegularText}
         underlineColorAndroid="transparent"
       />
     </View>
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     backgroundColor: "#2A0800",
-    borderColor: Colors.accent500,
+    borderColor: Colors.accentLilac,
     borderWidth: 1,
     borderRadius: 50,
     marginTop: 20,
