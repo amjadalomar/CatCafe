@@ -1,14 +1,20 @@
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import BottomTabNavigator from "./BottomTabStack";
 
-const AppStack = () => {
+import Colors from "../utils/Colors";
+
+const Stack = createNativeStackNavigator();
+
+function AppStackNavigator() {
   return (
-    <View>
-      <Text>AppStack</Text>
-    </View>
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}
+    >
+      <Stack.Screen name="BottomTabNavigator" component={BottomTabNavigator} />
+    </Stack.Navigator>
   );
-};
+}
 
-export default AppStack;
-
-const styles = StyleSheet.create({});
+export default AppStackNavigator;
