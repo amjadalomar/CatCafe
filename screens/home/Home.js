@@ -1,9 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+import Colors from "../../utils/Colors";
 
-const Home = () => {
+const Home = ({ navigation }) => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Home</Text>
     </View>
   );
@@ -11,4 +12,11 @@ const Home = () => {
 
 export default Home;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.skin,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
